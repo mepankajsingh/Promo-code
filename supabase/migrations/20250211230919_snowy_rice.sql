@@ -1,57 +1,58 @@
-/*
-  # Update user claims policies for multiple codes
-
-  1. Changes
-    - Drop existing unique constraint on user_claims
-    - Add new constraint to limit users to 3 codes per plan/region
-    - Update RLS policies for better claim handling
-
-  2. Security
-    - Maintain RLS enabled
-    - Update policies to enforce the 3-code limit
-*/
-
--- Drop existing unique constraint
-ALTER TABLE user_claims 
-DROP CONSTRAINT IF EXISTS user_claims_ip_address_type_region_key;
-
--- Create a function to check claim limit
-CREATE OR REPLACE FUNCTION check_claim_limit()
-RETURNS TRIGGER AS $$
+-- Create a stored procedure for claiming promo codes
+-- This ensures the operation is atomic (transaction-based)
+CREATE OR REPLACE FUNCTION claim_promo_code(
+  p_code_id UUID,
+  p_ip_address TEXT,
+  p_type TEXT,
+  p_region TEXT,
+  p_email TEXT DEFAULT NULL
+) RETURNS BOOLEAN AS $$
+DECLARE
+  v_success BOOLEAN;
 BEGIN
-  IF (
-    SELECT COUNT(*)
-    FROM user_claims
-    WHERE ip_address = NEW.ip_address
-    AND type = NEW.type
-    AND region = NEW.region
-  ) >= 3 THEN
-    RAISE EXCEPTION 'User has reached the maximum limit of 3 claims for this plan and region';
-  END IF;
-  RETURN NEW;
+  -- Start transaction
+  BEGIN
+    -- Mark the promo code as claimed
+    UPDATE promo_codes
+    SET is_claimed = TRUE
+    WHERE id = p_code_id AND is_claimed = FALSE;
+    
+    -- If no rows were updated, the code was already claimed
+    IF NOT FOUND THEN
+      RETURN FALSE;
+    END IF;
+    
+    -- Insert into user_claims
+    INSERT INTO user_claims (
+      ip_address,
+      promo_code_id,
+      type,
+      region
+    ) VALUES (
+      p_ip_address,
+      p_code_id,
+      p_type,
+      p_region
+    );
+    
+    -- If email provided, store it
+    IF p_email IS NOT NULL THEN
+      INSERT INTO business_emails (email)
+      VALUES (p_email)
+      ON CONFLICT DO NOTHING;
+    END IF;
+    
+    v_success := TRUE;
+  EXCEPTION
+    WHEN OTHERS THEN
+      -- Roll back transaction on error
+      RAISE;
+      v_success := FALSE;
+  END;
+  
+  RETURN v_success;
 END;
 $$ LANGUAGE plpgsql;
 
--- Create trigger to enforce claim limit
-DROP TRIGGER IF EXISTS enforce_claim_limit ON user_claims;
-CREATE TRIGGER enforce_claim_limit
-  BEFORE INSERT ON user_claims
-  FOR EACH ROW
-  EXECUTE FUNCTION check_claim_limit();
-
--- Update RLS policies for better claim handling
-DROP POLICY IF EXISTS "Allow read access to user claims by IP" ON user_claims;
-CREATE POLICY "Allow read access to user claims by IP"
-  ON user_claims
-  FOR SELECT
-  USING (true);
-
-DROP POLICY IF EXISTS "Allow insert to user claims with IP validation" ON user_claims;
-CREATE POLICY "Allow insert to user claims with claim limit"
-  ON user_claims
-  FOR INSERT
-  WITH CHECK (true);
-
--- Add index for faster claim limit checking
-CREATE INDEX IF NOT EXISTS idx_user_claims_ip_type_region 
-ON user_claims(ip_address, type, region);
+-- Add policy to allow executing the function
+GRANT EXECUTE ON FUNCTION claim_promo_code TO service_role;
