@@ -358,7 +358,8 @@ async function fetchClaimedCodes() {
       `)
       .order('created_at', { ascending: false })
 
-    if (error) throw error<boltAction type="file" filePath="components/PromoCodeManager.vue">    claimedCodes.value = data
+    if (error) throw error;
+    claimedCodes.value = data
   } catch (error) {
     console.error('Error fetching claimed codes:', error)
   }
