@@ -1,0 +1,174 @@
+{
+  "common": {
+    "getPromoCode": "Получить промокод",
+    "processing": "Обработка...",
+    "successMessage": "Промокод успешно получен!",
+    "limitedAvailability": "В связи с ограниченной доступностью каждая компания может получить максимум 3 промокода.",
+    "businessEmail": "Корпоративная почта (Необязательно)",
+    "emailAddresses": {
+      "placeholder": "{email}",
+      "support": "{email}"
+    },
+    "promoCodeTitle": "Ваш промокод:",
+    "useCodeMessage": "Используйте этот код при оформлении заказа, чтобы сэкономить 10%",
+    "copyright": "© {year} GWsave. Все права защищены.",
+    "menu": {
+      "starter": "Starter",
+      "standard": "Standard",
+      "updates": "Обновления",
+      "about": "О нас",
+      "contact": "Контакты"
+    },
+    "region": {
+      "label": "Регион",
+      "availableIn": "Доступно в:",
+      "americas": "Америка",
+      "asia_pacific": "Азиатско-Тихоокеанский регион",
+      "emea": "Европа, Ближний Восток и Африка",
+      "countries": {
+        "Argentina": "Аргентина",
+        "Brazil": "Бразилия",
+        "Canada": "Канада",
+        "Chile": "Чили",
+        "Colombia": "Колумбия",
+        "Mexico": "Мексика",
+        "Peru": "Перу",
+        "United States": "США",
+        "Australia": "Австралия",
+        "Hong Kong": "Гонконг",
+        "India": "Индия",
+        "Japan": "Япония",
+        "New Zealand": "Новая Зеландия",
+        "Singapore": "Сингапур",
+        "Belgium": "Бельгия",
+        "France": "Франция",
+        "Germany": "Германия",
+        "Ireland": "Ирландия",
+        "Italy": "Италия",
+        "Netherlands": "Нидерланды",
+        "Portugal": "Португалия",
+        "Spain": "Испания",
+        "United Arab Emirates": "ОАЭ",
+        "United Kingdom": "Великобритания"
+      }
+    },
+    "features": {
+      "title": "Почему стоит выбрать Google Workspace?",
+      "professionalEmail": {
+        "title": "Профессиональная почта",
+        "description": "Персонализированная почта с вашим бизнес-доменом и расширенной защитой от спама"
+      },
+      "videoMeetings": {
+        "title": "Видеовстречи",
+        "description": "HD-встречи с шумоподавлением и размытием фона"
+      },
+      "cloudStorage": {
+        "title": "Облачное хранилище",
+        "description": "Безопасное хранилище с инструментами для совместной работы в реальном времени"
+      }
+    },
+    "pricing": {
+      "perUser": "/пользователь/месяц"
+    }
+  },
+  "home": {
+    "title": "Промокоды Google Workspace",
+    "subtitle": "Получите скидку 10% на подписку Google Workspace. Выберите между тарифами Business Starter ($7/пользователь/месяц) или Business Standard ($14/пользователь/месяц)."
+  },
+  "starter": {
+    "title": "Промокод Google Workspace Business Starter",
+    "subtitle": "Получите скидку 10% на тариф Google Workspace Business Starter",
+    "features": {
+      "title": "Возможности Business Starter",
+      "email": {
+        "title": "Профессиональная почта",
+        "description": "Корпоративная почта с вашим доменом"
+      },
+      "meetings": {
+        "title": "Видеовстречи",
+        "description": "Видеовстречи на 100 участников с записью"
+      },
+      "storage": {
+        "title": "Облачное хранилище",
+        "description": "30ГБ облачного хранилища на пользователя"
+      }
+    }
+  },
+  "standard": {
+    "title": "Промокод Google Workspace Business Standard",
+    "subtitle": "Получите скидку 10% на тариф Google Workspace Business Standard",
+    "features": {
+      "title": "Возможности Business Standard",
+      "email": {
+        "title": "Профессиональная почта",
+        "description": "Корпоративная почта с вашим доменом"
+      },
+      "meetings": {
+        "title": "Видеовстречи",
+        "description": "Видеовстречи на 150 участников с записью"
+      },
+      "storage": {
+        "title": "Облачное хранилище",
+        "description": "2ТБ облачного хранилища на пользователя"
+      }
+    }
+  },
+  "updates": {
+    "title": "Обновления продуктов Google Workspace",
+    "subtitle": "Будьте в курсе последних обновлений и функций Google Workspace",
+    "viewOfficialBlog": "Посмотреть официальный блог обновлений Google Workspace",
+    "error": "Ошибка загрузки",
+    "errorMessage": "Пожалуйста, попробуйте позже или вернитесь за последними обновлениями.",
+    "noUpdates": "Нет доступных обновлений",
+    "checkBack": "Загляните позже для новых обновлений Google Workspace.",
+    "readMore": "Читать больше обновлений"
+  },
+  "about": {
+    "title": "О GWsave",
+    "subtitle": "Узнайте, как мы помогаем компаниям экономить на подписках Google Workspace",
+    "welcome": "Добро пожаловать в Google Workspace Promos! Мы предоставляем эксклюзивные промокоды со скидкой 10% на тарифы Business Starter и Business Standard.",
+    "whyChoose": {
+      "title": "Почему стоит выбрать Google Workspace?",
+      "features": {
+        "email": "Профессиональная почта с вашим доменом",
+        "meetings": "Видеовстречи через Google Meet",
+        "calendars": "Общие календари",
+        "drive": "Облачное хранилище Google Drive",
+        "collaboration": "Совместная работа в реальном времени с Google Docs, Sheets и Slides"
+      }
+    },
+    "howItWorks": {
+      "title": "Как это работает",
+      "steps": {
+        "choosePlan": {
+          "title": "Выберите тариф",
+          "description": "Выберите между Business Starter и Business Standard"
+        },
+        "getCode": {
+          "title": "Получите код",
+          "description": "Мгновенно получите уникальный промокод"
+        },
+        "apply": {
+          "title": "Примените при оформлении",
+          "description": "Используйте код при оформлении подписки Google Workspace"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Свяжитесь с нами",
+    "subtitle": "Есть вопросы о наших промокодах? Мы здесь, чтобы помочь.",
+    "emailSupport": {
+      "title": "Поддержка по email"
+    },
+    "businessHours": {
+      "title": "Часы работы",
+      "hours": "9:00 - 17:00 EST",
+      "days": "Понедельник - Пятница"
+    },
+    "response": {
+      "title": "Быстрый ответ",
+      "description": "Мы стремимся ответить на все запросы в течение 24 рабочих часов."
+    }
+  }
+}

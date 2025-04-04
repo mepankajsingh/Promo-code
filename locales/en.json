@@ -1,0 +1,174 @@
+{
+  "common": {
+    "getPromoCode": "Get Promo Code",
+    "processing": "Processing...",
+    "successMessage": "Successfully retrieved your promo code!",
+    "limitedAvailability": "Due to limited availability, each business can claim a maximum of 3 promo codes.",
+    "businessEmail": "Business Email (Optional)",
+    "emailAddresses": {
+      "placeholder": "{email}",
+      "support": "{email}"
+    },
+    "promoCodeTitle": "Your Promo Code:",
+    "useCodeMessage": "Use this code during checkout to save 10%",
+    "copyright": "© {year} GWsave. All rights reserved.",
+    "menu": {
+      "starter": "Starter",
+      "standard": "Standard",
+      "updates": "Updates",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "region": {
+      "label": "Region",
+      "availableIn": "Available in:",
+      "americas": "Americas",
+      "asia_pacific": "Asia Pacific",
+      "emea": "EMEA",
+      "countries": {
+        "Argentina": "Argentina",
+        "Brazil": "Brazil",
+        "Canada": "Canada",
+        "Chile": "Chile",
+        "Colombia": "Colombia",
+        "Mexico": "Mexico",
+        "Peru": "Peru",
+        "United States": "United States",
+        "Australia": "Australia",
+        "Hong Kong": "Hong Kong",
+        "India": "India",
+        "Japan": "Japan",
+        "New Zealand": "New Zealand",
+        "Singapore": "Singapore",
+        "Belgium": "Belgium",
+        "France": "France",
+        "Germany": "Germany",
+        "Ireland": "Ireland",
+        "Italy": "Italy",
+        "Netherlands": "Netherlands",
+        "Portugal": "Portugal",
+        "Spain": "Spain",
+        "United Arab Emirates": "United Arab Emirates",
+        "United Kingdom": "United Kingdom"
+      }
+    },
+    "features": {
+      "title": "Why Choose Google Workspace?",
+      "professionalEmail": {
+        "title": "Professional Email",
+        "description": "Custom email with your business domain and advanced spam protection"
+      },
+      "videoMeetings": {
+        "title": "Video Conferencing",
+        "description": "HD meetings with noise cancellation and background blur"
+      },
+      "cloudStorage": {
+        "title": "Cloud Storage",
+        "description": "Secure storage with real-time collaboration tools"
+      }
+    },
+    "pricing": {
+      "perUser": "/user/month"
+    }
+  },
+  "home": {
+    "title": "Google Workspace Promo Codes",
+    "subtitle": "Get 10% off on your Google Workspace subscription. Choose between Business Starter ($7/user/month) or Business Standard ($14/user/month) plans."
+  },
+  "starter": {
+    "title": "Google Workspace Business Starter Promo Code",
+    "subtitle": "Get 10% off on Google Workspace Business Starter plan",
+    "features": {
+      "title": "Business Starter Features",
+      "email": {
+        "title": "Professional Email",
+        "description": "Custom business email with your domain"
+      },
+      "meetings": {
+        "title": "Video Meetings",
+        "description": "100 participant video meetings with recording"
+      },
+      "storage": {
+        "title": "Cloud Storage",
+        "description": "30GB cloud storage per user"
+      }
+    }
+  },
+  "standard": {
+    "title": "Google Workspace Business Standard Promo Code",
+    "subtitle": "Get 10% off on Google Workspace Business Standard plan",
+    "features": {
+      "title": "Business Standard Features",
+      "email": {
+        "title": "Professional Email",
+        "description": "Custom business email with your domain"
+      },
+      "meetings": {
+        "title": "Video Meetings",
+        "description": "150 participant video meetings with recording"
+      },
+      "storage": {
+        "title": "Cloud Storage",
+        "description": "2TB cloud storage per user"
+      }
+    }
+  },
+  "updates": {
+    "title": "Google Workspace Product Updates",
+    "subtitle": "Stay informed about the latest Google Workspace updates and features",
+    "viewOfficialBlog": "View official Google Workspace Updates blog",
+    "error": "Error loading updates",
+    "errorMessage": "Please try again later or check back soon for the latest updates.",
+    "noUpdates": "No updates available",
+    "checkBack": "Check back soon for new Google Workspace updates.",
+    "readMore": "Read more updates"
+  },
+  "about": {
+    "title": "About GWsave",
+    "subtitle": "Learn how we help businesses save money on their Google Workspace subscriptions",
+    "welcome": "Welcome to Google Workspace Promos! We provide exclusive 10% discount promo codes for both Business Starter and Business Standard plans.",
+    "whyChoose": {
+      "title": "Why Choose Google Workspace?",
+      "features": {
+        "email": "Professional email with your business domain",
+        "meetings": "Video meetings with Google Meet",
+        "calendars": "Shared calendars",
+        "drive": "Cloud storage with Google Drive",
+        "collaboration": "Real-time collaboration with Google Docs, Sheets, and Slides"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": {
+        "choosePlan": {
+          "title": "Choose Your Plan",
+          "description": "Select between Business Starter or Business Standard plan"
+        },
+        "getCode": {
+          "title": "Get Your Code",
+          "description": "Receive your unique promo code instantly"
+        },
+        "apply": {
+          "title": "Apply at Checkout",
+          "description": "Use the code during Google Workspace checkout"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have questions about our promo codes? We're here to help.",
+    "emailSupport": {
+      "title": "Email Support"
+    },
+    "businessHours": {
+      "title": "Business Hours",
+      "hours": "9:00 AM - 5:00 PM EST",
+      "days": "Monday - Friday"
+    },
+    "response": {
+      "title": "Fast Response Time",
+      "description": "We aim to respond to all inquiries within 24 business hours."
+    }
+  }
+}

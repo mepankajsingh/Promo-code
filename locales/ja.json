@@ -1,0 +1,174 @@
+{
+  "common": {
+    "getPromoCode": "プロモーションコードを取得",
+    "processing": "処理中...",
+    "successMessage": "プロモーションコードを取得しました！",
+    "limitedAvailability": "在庫に限りがあるため、1企業様最大3つのプロモーションコードまでご利用いただけます。",
+    "businessEmail": "ビジネスメール（任意）",
+    "emailAddresses": {
+      "placeholder": "{email}",
+      "support": "{email}"
+    },
+    "promoCodeTitle": "プロモーションコード：",
+    "useCodeMessage": "チェックアウト時にこのコードを使用して10%割引",
+    "copyright": "© {year} GWsave. All rights reserved.",
+    "menu": {
+      "starter": "スターター",
+      "standard": "スタンダード",
+      "updates": "アップデート",
+      "about": "概要",
+      "contact": "お問い合わせ"
+    },
+    "region": {
+      "label": "地域",
+      "availableIn": "利用可能な地域：",
+      "americas": "アメリカ",
+      "asia_pacific": "アジア太平洋",
+      "emea": "ヨーロッパ、中東、アフリカ",
+      "countries": {
+        "Argentina": "アルゼンチン",
+        "Brazil": "ブラジル",
+        "Canada": "カナダ",
+        "Chile": "チリ",
+        "Colombia": "コロンビア",
+        "Mexico": "メキシコ",
+        "Peru": "ペルー",
+        "United States": "アメリカ合衆国",
+        "Australia": "オーストラリア",
+        "Hong Kong": "香港",
+        "India": "インド",
+        "Japan": "日本",
+        "New Zealand": "ニュージーランド",
+        "Singapore": "シンガポール",
+        "Belgium": "ベルギー",
+        "France": "フランス",
+        "Germany": "ドイツ",
+        "Ireland": "アイルランド",
+        "Italy": "イタリア",
+        "Netherlands": "オランダ",
+        "Portugal": "ポルトガル",
+        "Spain": "スペイン",
+        "United Arab Emirates": "アラブ首長国連邦",
+        "United Kingdom": "イギリス"
+      }
+    },
+    "features": {
+      "title": "Google Workspaceを選ぶ理由",
+      "professionalEmail": {
+        "title": "プロフェッショナルメール",
+        "description": "ビジネスドメインでカスタマイズされたメールと高度なスパム対策"
+      },
+      "videoMeetings": {
+        "title": "ビデオ会議",
+        "description": "ノイズキャンセリングと背景ぼかし機能付きHD会議"
+      },
+      "cloudStorage": {
+        "title": "クラウドストレージ",
+        "description": "リアルタイムコラボレーションツール付きの安全なストレージ"
+      }
+    },
+    "pricing": {
+      "perUser": "/ユーザー/月"
+    }
+  },
+  "home": {
+    "title": "Google Workspaceプロモーションコード",
+    "subtitle": "Google Workspaceサブスクリプションが10%オフ。Business Starter（$7/ユーザー/月）またはBusiness Standard（$14/ユーザー/月）からお選びください。"
+  },
+  "starter": {
+    "title": "Google Workspace Business Starterプロモーションコード",
+    "subtitle": "Google Workspace Business Starterプランが10%オフ",
+    "features": {
+      "title": "Business Starterの機能",
+      "email": {
+        "title": "プロフェッショナルメール",
+        "description": "独自ドメインのビジネスメール"
+      },
+      "meetings": {
+        "title": "ビデオ会議",
+        "description": "100名参加可能なビデオ会議（録画機能付き）"
+      },
+      "storage": {
+        "title": "クラウドストレージ",
+        "description": "ユーザーあたり30GBのクラウドストレージ"
+      }
+    }
+  },
+  "standard": {
+    "title": "Google Workspace Business Standardプロモーションコード",
+    "subtitle": "Google Workspace Business Standardプランが10%オフ",
+    "features": {
+      "title": "Business Standardの機能",
+      "email": {
+        "title": "プロフェッショナルメール",
+        "description": "独自ドメインのビジネスメール"
+      },
+      "meetings": {
+        "title": "ビデオ会議",
+        "description": "150名参加可能なビデオ会議（録画機能付き）"
+      },
+      "storage": {
+        "title": "クラウドストレージ",
+        "description": "ユーザーあたり2TBのクラウドストレージ"
+      }
+    }
+  },
+  "updates": {
+    "title": "Google Workspace 製品アップデート",
+    "subtitle": "Google Workspaceの最新のアップデートと機能について最新情報を入手",
+    "viewOfficialBlog": "公式Google Workspaceアップデートブログを見る",
+    "error": "読み込みエラー",
+    "errorMessage": "後ほど再試行するか、最新のアップデートを確認するために後でご確認ください。",
+    "noUpdates": "利用可能なアップデートはありません",
+    "checkBack": "Google Workspaceの新しいアップデートについては後ほどご確認ください。",
+    "readMore": "もっと更新を読む"
+  },
+  "about": {
+    "title": "GWsaveについて",
+    "subtitle": "Google Workspaceサブスクリプションの節約をサポートする方法をご紹介します",
+    "welcome": "Google Workspace Promosへようこそ！Business StarterとBusiness Standardプランの両方で10%割引の特別プロモーションコードを提供しています。",
+    "whyChoose": {
+      "title": "Google Workspaceを選ぶ理由",
+      "features": {
+        "email": "独自ドメインのプロフェッショナルメール",
+        "meetings": "Google Meetでのビデオ会議",
+        "calendars": "共有カレンダー",
+        "drive": "Google Driveのクラウドストレージ",
+        "collaboration": "Google Docs、Sheets、Slidesでのリアルタイムコラボレーション"
+      }
+    },
+    "howItWorks": {
+      "title": "ご利用方法",
+      "steps": {
+        "choosePlan": {
+          "title": "プランを選択",
+          "description": "Business StarterまたはBusiness Standardから選択"
+        },
+        "getCode": {
+          "title": "コードを取得",
+          "description": "unique プロモーションコードを即時取得"
+        },
+        "apply": {
+          "title": "チェックアウトで適用",
+          "description": "Google Workspaceのチェックアウト時にコードを使用"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "プロモーションコードについてご質問がありますか？サポートいたします。",
+    "emailSupport": {
+      "title": "メールサポート"
+    },
+    "businessHours": {
+      "title": "営業時間",
+      "hours": "9:00 - 17:00 EST",
+      "days": "月曜 - 金曜"
+    },
+    "response": {
+      "title": "迅速な対応",
+      "description": "営業時間内24時間以内の返信を心がけております。"
+    }
+  }
+}

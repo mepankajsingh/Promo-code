@@ -1,0 +1,174 @@
+{
+  "common": {
+    "getPromoCode": "Gutscheincode erhalten",
+    "processing": "Verarbeitung...",
+    "successMessage": "Gutscheincode erfolgreich abgerufen!",
+    "limitedAvailability": "Aufgrund der begrenzten Verfügbarkeit kann jedes Unternehmen maximal 3 Gutscheincodes beanspruchen.",
+    "businessEmail": "Geschäfts-E-Mail (Optional)",
+    "emailAddresses": {
+      "placeholder": "{email}",
+      "support": "{email}"
+    },
+    "promoCodeTitle": "Ihr Gutscheincode:",
+    "useCodeMessage": "Verwenden Sie diesen Code beim Checkout, um 10% zu sparen",
+    "copyright": "© {year} GWsave. Alle Rechte vorbehalten.",
+    "menu": {
+      "starter": "Starter",
+      "standard": "Standard",
+      "updates": "Updates",
+      "about": "Über uns",
+      "contact": "Kontakt"
+    },
+    "region": {
+      "label": "Region",
+      "availableIn": "Verfügbar in:",
+      "americas": "Amerika",
+      "asia_pacific": "Asien-Pazifik",
+      "emea": "Europa, Naher Osten und Afrika",
+      "countries": {
+        "Argentina": "Argentinien",
+        "Brazil": "Brasilien",
+        "Canada": "Kanada",
+        "Chile": "Chile",
+        "Colombia": "Kolumbien",
+        "Mexico": "Mexiko",
+        "Peru": "Peru",
+        "United States": "Vereinigte Staaten",
+        "Australia": "Australien",
+        "Hong Kong": "Hongkong",
+        "India": "Indien",
+        "Japan": "Japan",
+        "New Zealand": "Neuseeland",
+        "Singapore": "Singapur",
+        "Belgium": "Belgien",
+        "France": "Frankreich",
+        "Germany": "Deutschland",
+        "Ireland": "Irland",
+        "Italy": "Italien",
+        "Netherlands": "Niederlande",
+        "Portugal": "Portugal",
+        "Spain": "Spanien",
+        "United Arab Emirates": "Vereinigte Arabische Emirate",
+        "United Kingdom": "Vereinigtes Königreich"
+      }
+    },
+    "features": {
+      "title": "Warum Google Workspace wählen?",
+      "professionalEmail": {
+        "title": "Professionelle E-Mail",
+        "description": "Individuelle E-Mail mit Ihrer Geschäftsdomäne und erweitertem Spam-Schutz"
+      },
+      "videoMeetings": {
+        "title": "Videokonferenzen",
+        "description": "HD-Meetings mit Geräuschunterdrückung und Hintergrundunschärfe"
+      },
+      "cloudStorage": {
+        "title": "Cloud-Speicher",
+        "description": "Sicherer Speicher mit Echtzeit-Kollaborationstools"
+      }
+    },
+    "pricing": {
+      "perUser": "/Benutzer/Monat"
+    }
+  },
+  "home": {
+    "title": "Google Workspace Gutscheincodes",
+    "subtitle": "Erhalten Sie 10% Rabatt auf Ihr Google Workspace-Abonnement. Wählen Sie zwischen Business Starter ($7/Benutzer/Monat) oder Business Standard ($14/Benutzer/Monat)."
+  },
+  "starter": {
+    "title": "Google Workspace Business Starter Gutscheincode",
+    "subtitle": "Erhalten Sie 10% Rabatt auf den Google Workspace Business Starter Plan",
+    "features": {
+      "title": "Business Starter Funktionen",
+      "email": {
+        "title": "Professionelle E-Mail",
+        "description": "Geschäfts-E-Mail mit Ihrer eigenen Domain"
+      },
+      "meetings": {
+        "title": "Videokonferenzen",
+        "description": "100 Teilnehmer Videokonferenzen mit Aufzeichnung"
+      },
+      "storage": {
+        "title": "Cloud-Speicher",
+        "description": "30GB Cloud-Speicher pro Benutzer"
+      }
+    }
+  },
+  "standard": {
+    "title": "Google Workspace Business Standard Gutscheincode",
+    "subtitle": "Erhalten Sie 10% Rabatt auf den Google Workspace Business Standard Plan",
+    "features": {
+      "title": "Business Standard Funktionen",
+      "email": {
+        "title": "Professionelle E-Mail",
+        "description": "Geschäfts-E-Mail mit Ihrer eigenen Domain"
+      },
+      "meetings": {
+        "title": "Videokonferenzen",
+        "description": "150 Teilnehmer Videokonferenzen mit Aufzeichnung"
+      },
+      "storage": {
+        "title": "Cloud-Speicher",
+        "description": "2TB Cloud-Speicher pro Benutzer"
+      }
+    }
+  },
+  "updates": {
+    "title": "Google Workspace Produkt-Updates",
+    "subtitle": "Bleiben Sie über die neuesten Updates und Funktionen von Google Workspace informiert",
+    "viewOfficialBlog": "Offiziellen Google Workspace Updates-Blog ansehen",
+    "error": "Fehler beim Laden",
+    "errorMessage": "Bitte versuchen Sie es später erneut oder schauen Sie bald wieder vorbei.",
+    "noUpdates": "Keine Updates verfügbar",
+    "checkBack": "Schauen Sie bald wieder vorbei für neue Google Workspace Updates.",
+    "readMore": "Mehr updates lesen"
+  },
+  "about": {
+    "title": "Über GWsave",
+    "subtitle": "Erfahren Sie, wie wir Unternehmen beim Sparen ihrer Google Workspace-Abonnements helfen",
+    "welcome": "Willkommen bei Google Workspace Promos! Wir bieten exklusive 10% Rabatt-Codes für Business Starter und Business Standard Pläne.",
+    "whyChoose": {
+      "title": "Warum Google Workspace wählen?",
+      "features": {
+        "email": "Professionelle E-Mail mit Ihrer Domain",
+        "meetings": "Videomeetings mit Google Meet",
+        "calendars": "Gemeinsame Kalender",
+        "drive": "Cloud-Speicher mit Google Drive",
+        "collaboration": "Echtzeit-Zusammenarbeit mit Google Docs, Sheets und Slides"
+      }
+    },
+    "howItWorks": {
+      "title": "So funktioniert's",
+      "steps": {
+        "choosePlan": {
+          "title": "Plan auswählen",
+          "description": "Wählen Sie zwischen Business Starter oder Business Standard"
+        },
+        "getCode": {
+          "title": "Code erhalten",
+          "description": "Erhalten Sie sofort Ihren einzigartigen Gutscheincode"
+        },
+        "apply": {
+          "title": "Beim Checkout einlösen",
+          "description": "Verwenden Sie den Code beim Google Workspace-Checkout"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Fragen zu unseren Gutscheincodes? Wir helfen Ihnen gerne weiter.",
+    "emailSupport": {
+      "title": "E-Mail-Support"
+    },
+    "businessHours": {
+      "title": "Geschäftszeiten",
+      "hours": "9:00 - 17:00 EST",
+      "days": "Montag - Freitag"
+    },
+    "response": {
+      "title": "Schnelle Antwortzeit",
+      "description": "Wir bemühen uns, alle Anfragen innerhalb von 24 Geschäftsstunden zu beantworten."
+    }
+  }
+}

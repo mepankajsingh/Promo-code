@@ -1,0 +1,174 @@
+{
+  "common": {
+    "getPromoCode": "Obtenir le code promo",
+    "processing": "Traitement en cours...",
+    "successMessage": "Code promo récupéré avec succès !",
+    "limitedAvailability": "En raison d'une disponibilité limitée, chaque entreprise peut réclamer un maximum de 3 codes promo.",
+    "businessEmail": "Email professionnel (Optionnel)",
+    "emailAddresses": {
+      "placeholder": "{email}",
+      "support": "{email}"
+    },
+    "promoCodeTitle": "Votre code promo :",
+    "useCodeMessage": "Utilisez ce code lors du paiement pour économiser 10%",
+    "copyright": "© {year} GWsave. Tous droits réservés.",
+    "menu": {
+      "starter": "Starter",
+      "standard": "Standard",
+      "updates": "Mises à jour",
+      "about": "À propos",
+      "contact": "Contact"
+    },
+    "region": {
+      "label": "Région",
+      "availableIn": "Disponible en :",
+      "americas": "Amériques",
+      "asia_pacific": "Asie-Pacifique",
+      "emea": "Europe, Moyen-Orient et Afrique",
+      "countries": {
+        "Argentina": "Argentine",
+        "Brazil": "Brésil",
+        "Canada": "Canada",
+        "Chile": "Chili",
+        "Colombia": "Colombie",
+        "Mexico": "Mexique",
+        "Peru": "Pérou",
+        "United States": "États-Unis",
+        "Australia": "Australie",
+        "Hong Kong": "Hong Kong",
+        "India": "Inde",
+        "Japan": "Japon",
+        "New Zealand": "Nouvelle-Zélande",
+        "Singapore": "Singapour",
+        "Belgium": "Belgique",
+        "France": "France",
+        "Germany": "Allemagne",
+        "Ireland": "Irlande",
+        "Italy": "Italie",
+        "Netherlands": "Pays-Bas",
+        "Portugal": "Portugal",
+        "Spain": "Espagne",
+        "United Arab Emirates": "Émirats Arabes Unis",
+        "United Kingdom": "Royaume-Uni"
+      }
+    },
+    "features": {
+      "title": "Pourquoi choisir Google Workspace ?",
+      "professionalEmail": {
+        "title": "Email professionnel",
+        "description": "Email personnalisé avec votre nom de domaine et protection avancée contre le spam"
+      },
+      "videoMeetings": {
+        "title": "Réunions vidéo",
+        "description": "Réunions HD avec suppression du bruit et arrière-plan flou"
+      },
+      "cloudStorage": {
+        "title": "Stockage cloud",
+        "description": "Stockage sécurisé avec outils de collaboration en temps réel"
+      }
+    },
+    "pricing": {
+      "perUser": "/utilisateur/mois"
+    }
+  },
+  "home": {
+    "title": "Codes promo Google Workspace",
+    "subtitle": "Obtenez 10% de réduction sur votre abonnement Google Workspace. Choisissez entre les forfaits Business Starter (7$/utilisateur/mois) ou Business Standard (14$/utilisateur/mois)."
+  },
+  "starter": {
+    "title": "Code promo Business Starter",
+    "subtitle": "Obtenez 10% de réduction sur le forfait Google Workspace Business Starter",
+    "features": {
+      "title": "Fonctionnalités Business Starter",
+      "email": {
+        "title": "Email professionnel",
+        "description": "Email professionnel avec votre nom de domaine"
+      },
+      "meetings": {
+        "title": "Réunions vidéo",
+        "description": "Réunions vidéo jusqu'à 100 participants avec enregistrement"
+      },
+      "storage": {
+        "title": "Stockage cloud",
+        "description": "30 Go de stockage cloud par utilisateur"
+      }
+    }
+  },
+  "standard": {
+    "title": "Code promo Business Standard",
+    "subtitle": "Obtenez 10% de réduction sur le forfait Google Workspace Business Standard",
+    "features": {
+      "title": "Fonctionnalités Business Standard",
+      "email": {
+        "title": "Email professionnel",
+        "description": "Email professionnel avec votre nom de domaine"
+      },
+      "meetings": {
+        "title": "Réunions vidéo",
+        "description": "Réunions vidéo jusqu'à 150 participants avec enregistrement"
+      },
+      "storage": {
+        "title": "Stockage cloud",
+        "description": "2 To de stockage cloud par utilisateur"
+      }
+    }
+  },
+  "updates": {
+    "title": "Mises à jour des produits Google Workspace",
+    "subtitle": "Restez informé des dernières mises à jour et fonctionnalités de Google Workspace",
+    "viewOfficialBlog": "Voir le blog officiel des mises à jour Google Workspace",
+    "error": "Erreur de chargement",
+    "errorMessage": "Veuillez réessayer plus tard ou revenez bientôt pour les dernières mises à jour.",
+    "noUpdates": "Aucune mise à jour disponible",
+    "checkBack": "Revenez bientôt pour les nouvelles mises à jour de Google Workspace.",
+    "readMore": "Lire plus de mises à jour"
+  },
+  "about": {
+    "title": "À propos de GWsave",
+    "subtitle": "Découvrez comment nous aidons les entreprises à économiser sur leurs abonnements Google Workspace",
+    "welcome": "Bienvenue sur Google Workspace Promos ! Nous proposons des codes de réduction exclusifs de 10% pour les forfaits Business Starter et Business Standard.",
+    "whyChoose": {
+      "title": "Pourquoi choisir Google Workspace ?",
+      "features": {
+        "email": "Email professionnel avec votre nom de domaine",
+        "meetings": "Réunions vidéo avec Google Meet",
+        "calendars": "Calendriers partagés",
+        "drive": "Stockage cloud avec Google Drive",
+        "collaboration": "Collaboration en temps réel avec Google Docs, Sheets et Slides"
+      }
+    },
+    "howItWorks": {
+      "title": "Comment ça marche",
+      "steps": {
+        "choosePlan": {
+          "title": "Choisissez votre forfait",
+          "description": "Sélectionnez entre Business Starter ou Business Standard"
+        },
+        "getCode": {
+          "title": "Obtenez votre code",
+          "description": "Recevez instantanément votre code promo unique"
+        },
+        "apply": {
+          "title": "Appliquez lors du paiement",
+          "description": "Utilisez le code lors du paiement Google Workspace"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Des questions sur nos codes promo ? Nous sommes là pour vous aider.",
+    "emailSupport": {
+      "title": "Support par email"
+    },
+    "businessHours": {
+      "title": "Heures d'ouverture",
+      "hours": "9h00 - 17h00 EST",
+      "days": "Lundi - Vendredi"
+    },
+    "response": {
+      "title": "Réponse rapide",
+      "description": "Nous nous efforçons de répondre à toutes les demandes sous 24 heures ouvrées."
+    }
+  }
+}

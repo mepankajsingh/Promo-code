@@ -1,0 +1,174 @@
+{
+  "common": {
+    "getPromoCode": "प्रोमो कोड प्राप्त करें",
+    "processing": "प्रोसेसिंग...",
+    "successMessage": "आपका प्रोमो कोड सफलतापूर्वक प्राप्त हो गया है!",
+    "limitedAvailability": "सीमित उपलब्धता के कारण, प्रत्येक व्यवसाय अधिकतम 3 प्रोमो कोड का दावा कर सकता है।",
+    "businessEmail": "बिजनेस ईमेल (वैकल्पिक)",
+    "emailAddresses": {
+      "placeholder": "{email}",
+      "support": "{email}"
+    },
+    "promoCodeTitle": "आपका प्रोमो कोड:",
+    "useCodeMessage": "10% की बचत के लिए चेकआउट के समय इस कोड का उपयोग करें",
+    "copyright": "© {year} GWsave. सर्वाधिकार सुरक्षित।",
+    "menu": {
+      "starter": "स्टार्टर",
+      "standard": "स्टैंडर्ड",
+      "updates": "अपडेट्स",
+      "about": "हमारे बारे में",
+      "contact": "संपर्क करें"
+    },
+    "region": {
+      "label": "क्षेत्र",
+      "availableIn": "उपलब्ध है:",
+      "americas": "अमेरिकास",
+      "asia_pacific": "एशिया पैसिफिक",
+      "emea": "यूरोप, मध्य पूर्व और अफ्रीका",
+      "countries": {
+        "Argentina": "अर्जेंटीना",
+        "Brazil": "ब्राज़ील",
+        "Canada": "कनाडा",
+        "Chile": "चिली",
+        "Colombia": "कोलंबिया",
+        "Mexico": "मेक्सिको",
+        "Peru": "पेरू",
+        "United States": "संयुक्त राज्य अमेरिका",
+        "Australia": "ऑस्ट्रेलिया",
+        "Hong Kong": "हांगकांग",
+        "India": "भारत",
+        "Japan": "जापान",
+        "New Zealand": "न्यूजीलैंड",
+        "Singapore": "सिंगापुर",
+        "Belgium": "बेल्जियम",
+        "France": "फ्रांस",
+        "Germany": "जर्मनी",
+        "Ireland": "आयरलैंड",
+        "Italy": "इटली",
+        "Netherlands": "नीदरलैंड्स",
+        "Portugal": "पुर्तगाल",
+        "Spain": "स्पेन",
+        "United Arab Emirates": "संयुक्त अरब अमीरात",
+        "United Kingdom": "यूनाइटेड किंगडम"
+      }
+    },
+    "features": {
+      "title": "Google Workspace क्यों चुनें?",
+      "professionalEmail": {
+        "title": "प्रोफेशनल ईमेल",
+        "description": "आपके बिजनेस डोमेन के साथ कस्टम ईमेल और उन्नत स्पैम सुरक्षा"
+      },
+      "videoMeetings": {
+        "title": "वीडियो मीटिंग",
+        "description": "नॉइज कैंसलेशन और बैकग्राउंड ब्लर के साथ HD मीटिंग"
+      },
+      "cloudStorage": {
+        "title": "क्लाउड स्टोरेज",
+        "description": "रीयल-टाइम कोलैबोरेशन टूल्स के साथ सुरक्षित स्टोरेज"
+      }
+    },
+    "pricing": {
+      "perUser": "/उपयोगकर्ता/माह"
+    }
+  },
+  "home": {
+    "title": "Google Workspace प्रोमो कोड",
+    "subtitle": "Google Workspace सब्सक्रिप्शन पर 10% की छूट पाएं। Business Starter ($7/यूजर/माह) या Business Standard ($14/यूजर/माह) प्लान चुनें।"
+  },
+  "starter": {
+    "title": "Business Starter प्रोमो कोड",
+    "subtitle": "Google Workspace Business Starter प्लान पर 10% की छूट पाएं",
+    "features": {
+      "title": "Business Starter सुविधाएं",
+      "email": {
+        "title": "प्रोफेशनल ईमेल",
+        "description": "आपके डोमेन के साथ बिजनेस ईमेल"
+      },
+      "meetings": {
+        "title": "वीडियो मीटिंग",
+        "description": "100 प्रतिभागियों के साथ वीडियो मीटिंग और रिकॉर्डिंग"
+      },
+      "storage": {
+        "title": "क्लाउड स्टोरेज",
+        "description": "प्रति उपयोगकर्ता 30GB क्लाउड स्टोरेज"
+      }
+    }
+  },
+  "standard": {
+    "title": "Business Standard प्रोमो कोड",
+    "subtitle": "Google Workspace Business Standard प्लान पर 10% की छूट पाएं",
+    "features": {
+      "title": "Business Standard सुविधाएं",
+      "email": {
+        "title": "प्रोफेशनल ईमेल",
+        "description": "आपके डोमेन के साथ बिजनेस ईमेल"
+      },
+      "meetings": {
+        "title": "वीडियो मीटिंग",
+        "description": "150 प्रतिभागियों के साथ वीडियो मीटिंग और रिकॉर्डिंग"
+      },
+      "storage": {
+        "title": "क्लाउड स्टोरेज",
+        "description": "प्रति उपयोगकर्ता 2TB क्लाउड स्टोरेज"
+      }
+    }
+  },
+  "updates": {
+    "title": "Google Workspace उत्पाद अपडेट",
+    "subtitle": "Google Workspace की नवीनतम अपडेट और सुविधाओं के बारे में जानें",
+    "viewOfficialBlog": "आधिकारिक Google Workspace अपडेट ब्लॉग देखें",
+    "error": "लोड करने में त्रुटि",
+    "errorMessage": "कृपया बाद में पुनः प्रयास करें या नवीनतम अपडेट के लिए जल्द ही वापस आएं।",
+    "noUpdates": "कोई अपडेट उपलब्ध नहीं",
+    "checkBack": "Google Workspace की नई अपडेट के लिए जल्द ही वापस आएं।",
+    "readMore": "और अपडेट पढ़ें"
+  },
+  "about": {
+    "title": "GWsave के बारे में",
+    "subtitle": "जानें कि हम कैसे व्यवसायों को उनके Google Workspace सब्सक्रिप्शन पर बचत करने में मदद करते हैं",
+    "welcome": "Google Workspace Promos में आपका स्वागत है! हम Business Starter और Business Standard प्लान के लिए विशेष 10% छूट कोड प्रदान करते हैं।",
+    "whyChoose": {
+      "title": "Google Workspace क्यों चुनें?",
+      "features": {
+        "email": "आपके डोमेन के साथ प्रोफेशनल ईमेल",
+        "meetings": "Google Meet के साथ वीडियो मीटिंग",
+        "calendars": "शेयर्ड कैलेंडर",
+        "drive": "Google Drive के साथ क्लाउड स्टोरेज",
+        "collaboration": "Google Docs, Sheets और Slides के साथ रीयल-टाइम कोलैबोरेशन"
+      }
+    },
+    "howItWorks": {
+      "title": "यह कैसे काम करता है",
+      "steps": {
+        "choosePlan": {
+          "title": "अपना प्लान चुनें",
+          "description": "Business Starter या Business Standard में से चुनें"
+        },
+        "getCode": {
+          "title": "अपना कोड प्राप्त करें",
+          "description": "तुरंत अपना विशेष प्रोमो कोड प्राप्त करें"
+        },
+        "apply": {
+          "title": "चेकआउट पर लागू करें",
+          "description": "Google Workspace चेकआउट के दौरान कोड का उपयोग करें"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "संपर्क करें",
+    "subtitle": "हमारे प्रोमो कोड के बारे में प्रश्न हैं? हम मदद के लिए यहां हैं।",
+    "emailSupport": {
+      "title": "ईमेल सपोर्ट"
+    },
+    "businessHours": {
+      "title": "कार्यालय समय",
+      "hours": "सुबह 9:00 - शाम 5:00 EST",
+      "days": "सोमवार - शुक्रवार"
+    },
+    "response": {
+      "title": "त्वरित प्रतिक्रिया",
+      "description": "हम 24 कार्य घंटों के भीतर सभी पूछताछ का जवाब देने का प्रयास करते हैं।"
+    }
+  }
+}
