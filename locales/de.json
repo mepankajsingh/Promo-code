@@ -3,7 +3,7 @@
     "getPromoCode": "Gutscheincode erhalten",
     "processing": "Verarbeitung...",
     "successMessage": "Gutscheincode erfolgreich abgerufen!",
-    "limitedAvailability": "Aufgrund der begrenzten Verfügbarkeit kann jedes Unternehmen maximal 3 Gutscheincodes beanspruchen.",
+    "limitedAvailability": "Aufgrund begrenzter Verfügbarkeit kann jedes Unternehmen maximal 3 Gutscheincodes beanspruchen.",
     "businessEmail": "Geschäfts-E-Mail (Optional)",
     "emailAddresses": {
       "placeholder": "{email}",
@@ -56,7 +56,7 @@
       "title": "Warum Google Workspace wählen?",
       "professionalEmail": {
         "title": "Professionelle E-Mail",
-        "description": "Individuelle E-Mail mit Ihrer Geschäftsdomäne und erweitertem Spam-Schutz"
+        "description": "Benutzerdefinierte E-Mail mit Ihrer Geschäftsdomäne und erweitertem Spam-Schutz"
       },
       "videoMeetings": {
         "title": "Videokonferenzen",
@@ -73,64 +73,70 @@
   },
   "home": {
     "title": "Google Workspace Gutscheincodes",
-    "subtitle": "Erhalten Sie 10% Rabatt auf Ihr Google Workspace-Abonnement. Wählen Sie zwischen Business Starter ($7/Benutzer/Monat) oder Business Standard ($14/Benutzer/Monat)."
+    "subtitle": "Erhalten Sie 10% Rabatt auf Ihr Google Workspace-Abonnement. Wählen Sie zwischen Business Starter (7$/Benutzer/Monat) oder Business Standard (14$/Benutzer/Monat)."
   },
   "starter": {
     "title": "Google Workspace Business Starter Gutscheincode",
-    "subtitle": "Erhalten Sie 10% Rabatt auf den Google Workspace Business Starter Plan",
-    "features": {
-      "title": "Business Starter Funktionen",
-      "email": {
-        "title": "Professionelle E-Mail",
-        "description": "Geschäfts-E-Mail mit Ihrer eigenen Domain"
-      },
-      "meetings": {
-        "title": "Videokonferenzen",
-        "description": "100 Teilnehmer Videokonferenzen mit Aufzeichnung"
-      },
-      "storage": {
-        "title": "Cloud-Speicher",
-        "description": "30GB Cloud-Speicher pro Benutzer"
-      }
-    }
+    "subtitle": "Erhalten Sie 10% Rabatt auf den Google Workspace Business Starter-Plan",
+    "claimTitle": "Beanspruchen Sie Ihren Starter-Gutscheincode",
+    "description": "Erhalten Sie 10% Rabatt auf den Google Workspace Business Starter-Plan (7$/Benutzer/Monat). Dieser Code funktioniert sowohl für neue als auch für bestehende Google Workspace-Kunden.",
+    "emailLabel": "Geschäfts-E-Mail",
+    "regionLabel": "Wählen Sie Ihre Region",
+    "claimButton": "Gutscheincode erhalten",
+    "success": "Erfolg! Ihr Gutscheincode ist einsatzbereit",
+    "codeInfo": "Verwenden Sie diesen Code beim Checkout, um 10% Rabatt auf Ihr Google Workspace Business Starter-Abonnement zu erhalten:",
+    "error": "Fehler",
+    "alreadyClaimed": "Sie haben bereits einen Starter-Gutscheincode mit dieser IP-Adresse beansprucht.",
+    "noCodesAvailable": "Leider sind derzeit keine weiteren Gutscheincodes für Ihre Region verfügbar.",
+    "claimError": "Beim Beanspruchen Ihres Gutscheincodes ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+    "generalError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut.",
+    "featuresTitle": "Business Starter Funktionen",
+    "feature1": "Benutzerdefinierte Geschäfts-E-Mail ('{at}ihrefirma.de')",
+    "feature2": "Videokonferenzen mit 100 Teilnehmern",
+    "feature3": "30GB Cloud-Speicher pro Benutzer",
+    "metaDescription": "Erhalten Sie einen exklusiven 10% Rabatt-Gutscheincode für den Google Workspace Business Starter-Plan. Gültig für neue und bestehende Kunden im Jahr 2025."
   },
   "standard": {
     "title": "Google Workspace Business Standard Gutscheincode",
-    "subtitle": "Erhalten Sie 10% Rabatt auf den Google Workspace Business Standard Plan",
-    "features": {
-      "title": "Business Standard Funktionen",
-      "email": {
-        "title": "Professionelle E-Mail",
-        "description": "Geschäfts-E-Mail mit Ihrer eigenen Domain"
-      },
-      "meetings": {
-        "title": "Videokonferenzen",
-        "description": "150 Teilnehmer Videokonferenzen mit Aufzeichnung"
-      },
-      "storage": {
-        "title": "Cloud-Speicher",
-        "description": "2TB Cloud-Speicher pro Benutzer"
-      }
-    }
+    "subtitle": "Erhalten Sie 10% Rabatt auf den Google Workspace Business Standard-Plan",
+    "claimTitle": "Beanspruchen Sie Ihren Standard-Gutscheincode",
+    "description": "Erhalten Sie 10% Rabatt auf den Google Workspace Business Standard-Plan (14$/Benutzer/Monat). Dieser Code funktioniert sowohl für neue als auch für bestehende Google Workspace-Kunden.",
+    "emailLabel": "Geschäfts-E-Mail",
+    "regionLabel": "Wählen Sie Ihre Region",
+    "claimButton": "Gutscheincode erhalten",
+    "success": "Erfolg! Ihr Gutscheincode ist einsatzbereit",
+    "codeInfo": "Verwenden Sie diesen Code beim Checkout, um 10% Rabatt auf Ihr Google Workspace Business Standard-Abonnement zu erhalten:",
+    "error": "Fehler",
+    "alreadyClaimed": "Sie haben bereits einen Standard-Gutscheincode mit dieser IP-Adresse beansprucht.",
+    "noCodesAvailable": "Leider sind derzeit keine weiteren Gutscheincodes für Ihre Region verfügbar.",
+    "claimError": "Beim Beanspruchen Ihres Gutscheincodes ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+    "generalError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut.",
+    "featuresTitle": "Business Standard Funktionen",
+    "feature1": "Benutzerdefinierte Geschäfts-E-Mail ('{at}ihrefirma.de')",
+    "feature2": "Videokonferenzen mit 150 Teilnehmern und Aufzeichnung",
+    "feature3": "2TB Cloud-Speicher pro Benutzer",
+    "feature4": "Sicherheits- und Verwaltungskontrollen",
+    "feature5": "Standard-Support (kostenpflichtiges Upgrade auf erweiterten Support)",
+    "metaDescription": "Erhalten Sie einen exklusiven 10% Rabatt-Gutscheincode für den Google Workspace Business Standard-Plan. Gültig für neue und bestehende Kunden im Jahr 2025."
   },
   "updates": {
     "title": "Google Workspace Produkt-Updates",
-    "subtitle": "Bleiben Sie über die neuesten Updates und Funktionen von Google Workspace informiert",
+    "subtitle": "Bleiben Sie über die neuesten Google Workspace-Updates und -Funktionen informiert",
     "viewOfficialBlog": "Offiziellen Google Workspace Updates-Blog ansehen",
-    "error": "Fehler beim Laden",
-    "errorMessage": "Bitte versuchen Sie es später erneut oder schauen Sie bald wieder vorbei.",
+    "error": "Fehler beim Laden von Updates",
+    "errorMessage": "Bitte versuchen Sie es später erneut oder schauen Sie bald wieder vorbei, um die neuesten Updates zu erhalten.",
     "noUpdates": "Keine Updates verfügbar",
-    "checkBack": "Schauen Sie bald wieder vorbei für neue Google Workspace Updates.",
-    "readMore": "Mehr updates lesen"
+    "checkBack": "Schauen Sie bald wieder vorbei, um neue Google Workspace-Updates zu erhalten.",
+    "readMore": "Weitere Updates lesen"
   },
   "about": {
     "title": "Über GWsave",
-    "subtitle": "Erfahren Sie, wie wir Unternehmen beim Sparen ihrer Google Workspace-Abonnements helfen",
-    "welcome": "Willkommen bei Google Workspace Promos! Wir bieten exklusive 10% Rabatt-Codes für Business Starter und Business Standard Pläne.",
+    "subtitle": "Erfahren Sie, wie wir Unternehmen helfen, Geld bei ihren Google Workspace-Abonnements zu sparen",
+    "welcome": "Willkommen bei Google Workspace Promos! Wir bieten exklusive 10% Rabatt-Gutscheincodes für Business Starter und Business Standard-Pläne an.",
     "whyChoose": {
       "title": "Warum Google Workspace wählen?",
       "features": {
-        "email": "Professionelle E-Mail mit Ihrer Domain",
+        "email": "Professionelle E-Mail mit Ihrer Geschäftsdomäne",
         "meetings": "Videomeetings mit Google Meet",
         "calendars": "Gemeinsame Kalender",
         "drive": "Cloud-Speicher mit Google Drive",
@@ -138,37 +144,42 @@
       }
     },
     "howItWorks": {
-      "title": "So funktioniert's",
+      "title": "So funktioniert es",
       "steps": {
         "choosePlan": {
-          "title": "Plan auswählen",
-          "description": "Wählen Sie zwischen Business Starter oder Business Standard"
+          "title": "Wählen Sie Ihren Plan",
+          "description": "Wählen Sie zwischen Business Starter oder Business Standard-Plan"
         },
         "getCode": {
-          "title": "Code erhalten",
+          "title": "Erhalten Sie Ihren Code",
           "description": "Erhalten Sie sofort Ihren einzigartigen Gutscheincode"
         },
         "apply": {
-          "title": "Beim Checkout einlösen",
-          "description": "Verwenden Sie den Code beim Google Workspace-Checkout"
+          "title": "Beim Checkout anwenden",
+          "description": "Verwenden Sie den Code während des Google Workspace-Checkouts"
         }
       }
     }
   },
   "contact": {
-    "title": "Kontakt",
-    "subtitle": "Fragen zu unseren Gutscheincodes? Wir helfen Ihnen gerne weiter.",
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Haben Sie Fragen zu unseren Gutscheincodes? Wir sind hier, um zu helfen.",
     "emailSupport": {
       "title": "E-Mail-Support"
     },
     "businessHours": {
       "title": "Geschäftszeiten",
-      "hours": "9:00 - 17:00 EST",
+      "hours": "9:00 - 17:00 Uhr MEZ",
       "days": "Montag - Freitag"
     },
     "response": {
       "title": "Schnelle Antwortzeit",
       "description": "Wir bemühen uns, alle Anfragen innerhalb von 24 Geschäftsstunden zu beantworten."
     }
+  },
+  "regions": {
+    "americas": "Amerika",
+    "emea": "Europa, Naher Osten & Afrika",
+    "asiaPacific": "Asien-Pazifik"
   }
 }

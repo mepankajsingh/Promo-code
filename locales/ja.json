@@ -1,28 +1,28 @@
 {
   "common": {
-    "getPromoCode": "プロモーションコードを取得",
+    "getPromoCode": "プロモコードを取得",
     "processing": "処理中...",
-    "successMessage": "プロモーションコードを取得しました！",
-    "limitedAvailability": "在庫に限りがあるため、1企業様最大3つのプロモーションコードまでご利用いただけます。",
+    "successMessage": "プロモコードの取得に成功しました！",
+    "limitedAvailability": "在庫に限りがあるため、各企業は最大3つのプロモコードを請求できます。",
     "businessEmail": "ビジネスメール（任意）",
     "emailAddresses": {
       "placeholder": "{email}",
       "support": "{email}"
     },
-    "promoCodeTitle": "プロモーションコード：",
+    "promoCodeTitle": "あなたのプロモコード：",
     "useCodeMessage": "チェックアウト時にこのコードを使用して10%割引",
     "copyright": "© {year} GWsave. All rights reserved.",
     "menu": {
       "starter": "スターター",
       "standard": "スタンダード",
       "updates": "アップデート",
-      "about": "概要",
+      "about": "会社概要",
       "contact": "お問い合わせ"
     },
     "region": {
       "label": "地域",
       "availableIn": "利用可能な地域：",
-      "americas": "アメリカ",
+      "americas": "南北アメリカ",
       "asia_pacific": "アジア太平洋",
       "emea": "ヨーロッパ、中東、アフリカ",
       "countries": {
@@ -55,16 +55,16 @@
     "features": {
       "title": "Google Workspaceを選ぶ理由",
       "professionalEmail": {
-        "title": "プロフェッショナルメール",
-        "description": "ビジネスドメインでカスタマイズされたメールと高度なスパム対策"
+        "title": "プロフェッショナルなメール",
+        "description": "ビジネスドメインでのカスタムメールと高度なスパム保護"
       },
       "videoMeetings": {
         "title": "ビデオ会議",
-        "description": "ノイズキャンセリングと背景ぼかし機能付きHD会議"
+        "description": "ノイズキャンセリングと背景ぼかし機能を備えたHD会議"
       },
       "cloudStorage": {
         "title": "クラウドストレージ",
-        "description": "リアルタイムコラボレーションツール付きの安全なストレージ"
+        "description": "リアルタイムコラボレーションツールを備えた安全なストレージ"
       }
     },
     "pricing": {
@@ -72,68 +72,74 @@
     }
   },
   "home": {
-    "title": "Google Workspaceプロモーションコード",
-    "subtitle": "Google Workspaceサブスクリプションが10%オフ。Business Starter（$7/ユーザー/月）またはBusiness Standard（$14/ユーザー/月）からお選びください。"
+    "title": "Google Workspaceプロモコード",
+    "subtitle": "Google Workspaceサブスクリプションが10%オフ。Business Starter（$7/ユーザー/月）またはBusiness Standard（$14/ユーザー/月）プランからお選びください。"
   },
   "starter": {
-    "title": "Google Workspace Business Starterプロモーションコード",
+    "title": "Google Workspace Business Starterプロモコード",
     "subtitle": "Google Workspace Business Starterプランが10%オフ",
-    "features": {
-      "title": "Business Starterの機能",
-      "email": {
-        "title": "プロフェッショナルメール",
-        "description": "独自ドメインのビジネスメール"
-      },
-      "meetings": {
-        "title": "ビデオ会議",
-        "description": "100名参加可能なビデオ会議（録画機能付き）"
-      },
-      "storage": {
-        "title": "クラウドストレージ",
-        "description": "ユーザーあたり30GBのクラウドストレージ"
-      }
-    }
+    "claimTitle": "Starterプロモコードを請求する",
+    "description": "Google Workspace Business Starterプラン（$7/ユーザー/月）が10%オフになります。このコードは新規および既存のGoogle Workspaceのお客様にご利用いただけます。",
+    "emailLabel": "ビジネスメール",
+    "regionLabel": "地域を選択",
+    "claimButton": "プロモコードを取得",
+    "success": "成功！プロモコードの準備ができました",
+    "codeInfo": "このコードをチェックアウト時に使用して、Google Workspace Business Starterサブスクリプションを10%割引で購入できます：",
+    "error": "エラー",
+    "alreadyClaimed": "このIPアドレスではすでにStarterプロモコードを請求しています。",
+    "noCodesAvailable": "申し訳ありませんが、現在お客様の地域ではプロモコードの在庫がありません。",
+    "claimError": "プロモコードの請求中にエラーが発生しました。もう一度お試しください。",
+    "generalError": "問題が発生しました。後でもう一度お試しください。",
+    "featuresTitle": "Business Starterの機能",
+    "feature1": "カスタムビジネスメール（'{at}yourcompany.com'）",
+    "feature2": "100人参加可能なビデオ会議",
+    "feature3": "ユーザーあたり30GBのクラウドストレージ",
+    "metaDescription": "Google Workspace Business Starterプラン向けの10%割引プロモコードを入手。2025年の新規および既存のお客様に有効。"
   },
   "standard": {
-    "title": "Google Workspace Business Standardプロモーションコード",
+    "title": "Google Workspace Business Standardプロモコード",
     "subtitle": "Google Workspace Business Standardプランが10%オフ",
-    "features": {
-      "title": "Business Standardの機能",
-      "email": {
-        "title": "プロフェッショナルメール",
-        "description": "独自ドメインのビジネスメール"
-      },
-      "meetings": {
-        "title": "ビデオ会議",
-        "description": "150名参加可能なビデオ会議（録画機能付き）"
-      },
-      "storage": {
-        "title": "クラウドストレージ",
-        "description": "ユーザーあたり2TBのクラウドストレージ"
-      }
-    }
+    "claimTitle": "Standardプロモコードを請求する",
+    "description": "Google Workspace Business Standardプラン（$14/ユーザー/月）が10%オフになります。このコードは新規および既存のGoogle Workspaceのお客様にご利用いただけます。",
+    "emailLabel": "ビジネスメール",
+    "regionLabel": "地域を選択",
+    "claimButton": "プロモコードを取得",
+    "success": "成功！プロモコードの準備ができました",
+    "codeInfo": "このコードをチェックアウト時に使用して、Google Workspace Business Standardサブスクリプションを10%割引で購入できます：",
+    "error": "エラー",
+    "alreadyClaimed": "このIPアドレスではすでにStandardプロモコードを請求しています。",
+    "noCodesAvailable": "申し訳ありませんが、現在お客様の地域ではプロモコードの在庫がありません。",
+    "claimError": "プロモコードの請求中にエラーが発生しました。もう一度お試しください。",
+    "generalError": "問題が発生しました。後でもう一度お試しください。",
+    "featuresTitle": "Business Standardの機能",
+    "feature1": "カスタムビジネスメール（'{at}yourcompany.com'）",
+    "feature2": "録画機能付き150人参加可能なビデオ会議",
+    "feature3": "ユーザーあたり2TBのクラウドストレージ",
+    "feature4": "セキュリティと管理コントロール",
+    "feature5": "標準サポート（強化サポートへの有料アップグレード可能）",
+    "metaDescription": "Google Workspace Business Standardプラン向けの10%割引プロモコードを入手。2025年の新規および既存のお客様に有効。"
   },
   "updates": {
-    "title": "Google Workspace 製品アップデート",
-    "subtitle": "Google Workspaceの最新のアップデートと機能について最新情報を入手",
+    "title": "Google Workspace製品アップデート",
+    "subtitle": "最新のGoogle Workspaceのアップデートと機能について最新情報を入手",
     "viewOfficialBlog": "公式Google Workspaceアップデートブログを見る",
-    "error": "読み込みエラー",
-    "errorMessage": "後ほど再試行するか、最新のアップデートを確認するために後でご確認ください。",
+    "error": "アップデートの読み込みエラー",
+    "errorMessage": "後でもう一度お試しいただくか、最新のアップデートをご確認ください。",
     "noUpdates": "利用可能なアップデートはありません",
-    "checkBack": "Google Workspaceの新しいアップデートについては後ほどご確認ください。",
-    "readMore": "もっと更新を読む"
+    "checkBack": "新しいGoogle Workspaceのアップデートについては、また後ほどご確認ください。",
+    "readMore": "さらにアップデートを読む"
   },
   "about": {
     "title": "GWsaveについて",
-    "subtitle": "Google Workspaceサブスクリプションの節約をサポートする方法をご紹介します",
-    "welcome": "Google Workspace Promosへようこそ！Business StarterとBusiness Standardプランの両方で10%割引の特別プロモーションコードを提供しています。",
+    "subtitle": "企業がGoogle Workspaceサブスクリプションでお金を節約する方法をご紹介します",
+    "welcome": "Google Workspace Promosへようこそ！Business StarterとBusiness Standardプラン向けの10%割引プロモコードを提供しています。",
     "whyChoose": {
       "title": "Google Workspaceを選ぶ理由",
       "features": {
-        "email": "独自ドメインのプロフェッショナルメール",
+        "email": "ビジネスドメインでのプロフェッショナルなメール",
         "meetings": "Google Meetでのビデオ会議",
         "calendars": "共有カレンダー",
-        "drive": "Google Driveのクラウドストレージ",
+        "drive": "Google Driveでのクラウドストレージ",
         "collaboration": "Google Docs、Sheets、Slidesでのリアルタイムコラボレーション"
       }
     },
@@ -142,14 +148,14 @@
       "steps": {
         "choosePlan": {
           "title": "プランを選択",
-          "description": "Business StarterまたはBusiness Standardから選択"
+          "description": "Business StarterまたはBusiness Standardプランを選択"
         },
         "getCode": {
           "title": "コードを取得",
-          "description": "unique プロモーションコードを即時取得"
+          "description": "ユニークなプロモコードをすぐに受け取る"
         },
         "apply": {
-          "title": "チェックアウトで適用",
+          "title": "チェックアウト時に適用",
           "description": "Google Workspaceのチェックアウト時にコードを使用"
         }
       }
@@ -157,18 +163,23 @@
   },
   "contact": {
     "title": "お問い合わせ",
-    "subtitle": "プロモーションコードについてご質問がありますか？サポートいたします。",
+    "subtitle": "プロモコードについてご質問がありますか？お手伝いします。",
     "emailSupport": {
       "title": "メールサポート"
     },
     "businessHours": {
       "title": "営業時間",
-      "hours": "9:00 - 17:00 EST",
-      "days": "月曜 - 金曜"
+      "hours": "9:00 AM - 5:00 PM EST",
+      "days": "月曜日 - 金曜日"
     },
     "response": {
-      "title": "迅速な対応",
-      "description": "営業時間内24時間以内の返信を心がけております。"
+      "title": "迅速な対応時間",
+      "description": "すべてのお問い合わせに24営業時間以内に回答することを目指しています。"
     }
+  },
+  "regions": {
+    "americas": "南北アメリカ",
+    "emea": "ヨーロッパ、中東、アフリカ",
+    "asiaPacific": "アジア太平洋"
   }
 }
