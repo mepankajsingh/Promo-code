@@ -78,40 +78,46 @@
   "starter": {
     "title": "Google Workspace Business Starter Promo Code",
     "subtitle": "Get 10% off on Google Workspace Business Starter plan",
-    "features": {
-      "title": "Business Starter Features",
-      "email": {
-        "title": "Professional Email",
-        "description": "Custom business email with your domain"
-      },
-      "meetings": {
-        "title": "Video Meetings",
-        "description": "100 participant video meetings with recording"
-      },
-      "storage": {
-        "title": "Cloud Storage",
-        "description": "30GB cloud storage per user"
-      }
-    }
+    "claimTitle": "Claim Your Starter Promo Code",
+    "description": "Get a 10% discount on Google Workspace Business Starter plan ($7/user/month). This code works for both new and existing Google Workspace customers.",
+    "emailLabel": "Business Email",
+    "regionLabel": "Select Your Region",
+    "claimButton": "Get Promo Code",
+    "success": "Success! Your promo code is ready to use",
+    "codeInfo": "Use this code during checkout to get 10% off your Google Workspace Business Starter subscription:",
+    "error": "Error",
+    "alreadyClaimed": "You have already claimed a Starter promo code with this IP address.",
+    "noCodesAvailable": "Sorry, no more promo codes are available for your region at this time.",
+    "claimError": "There was an error claiming your promo code. Please try again.",
+    "generalError": "Something went wrong. Please try again later.",
+    "featuresTitle": "Business Starter Features",
+    "feature1": "Custom business email ('{at}yourcompany.com')",
+    "feature2": "100 participant video meetings",
+    "feature3": "30GB cloud storage per user",
+    "metaDescription": "Get an exclusive 10% discount promo code for Google Workspace Business Starter plan. Valid for new and existing customers in 2025."
   },
   "standard": {
     "title": "Google Workspace Business Standard Promo Code",
     "subtitle": "Get 10% off on Google Workspace Business Standard plan",
-    "features": {
-      "title": "Business Standard Features",
-      "email": {
-        "title": "Professional Email",
-        "description": "Custom business email with your domain"
-      },
-      "meetings": {
-        "title": "Video Meetings",
-        "description": "150 participant video meetings with recording"
-      },
-      "storage": {
-        "title": "Cloud Storage",
-        "description": "2TB cloud storage per user"
-      }
-    }
+    "claimTitle": "Claim Your Standard Promo Code",
+    "description": "Get a 10% discount on Google Workspace Business Standard plan ($14/user/month). This code works for both new and existing Google Workspace customers.",
+    "emailLabel": "Business Email",
+    "regionLabel": "Select Your Region",
+    "claimButton": "Get Promo Code",
+    "success": "Success! Your promo code is ready to use",
+    "codeInfo": "Use this code during checkout to get 10% off your Google Workspace Business Standard subscription:",
+    "error": "Error",
+    "alreadyClaimed": "You have already claimed a Standard promo code with this IP address.",
+    "noCodesAvailable": "Sorry, no more promo codes are available for your region at this time.",
+    "claimError": "There was an error claiming your promo code. Please try again.",
+    "generalError": "Something went wrong. Please try again later.",
+    "featuresTitle": "Business Standard Features",
+    "feature1": "Custom business email ('{at}yourcompany.com')",
+    "feature2": "150 participant video meetings with recording",
+    "feature3": "2TB cloud storage per user",
+    "feature4": "Security and management controls",
+    "feature5": "Standard support (paid upgrade to enhanced support)",
+    "metaDescription": "Get an exclusive 10% discount promo code for Google Workspace Business Standard plan. Valid for new and existing customers in 2025."
   },
   "updates": {
     "title": "Google Workspace Product Updates",
@@ -170,5 +176,10 @@
       "title": "Fast Response Time",
       "description": "We aim to respond to all inquiries within 24 business hours."
     }
+  },
+  "regions": {
+    "americas": "Americas",
+    "emea": "Europe, Middle East & Africa",
+    "asiaPacific": "Asia Pacific"
   }
 }

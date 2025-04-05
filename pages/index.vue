@@ -196,15 +196,15 @@ async function copyToClipboard(text) {
 const { locale } = useI18n()
 
 useHead(() => ({
-  title: locale.value === 'en' ? 'Google Workspace Promo Codes - Save 10%' :
-         locale.value === 'fr' ? 'Codes promo Google Workspace - Économisez 10%' :
-         locale.value === 'es' ? 'Códigos promocionales de Google Workspace - Ahorre 10%' :
-         locale.value === 'pt' ? 'Códigos promocionais do Google Workspace - Economize 10%' :
-         locale.value === 'de' ? 'Google Workspace Gutscheincodes - 10% sparen' :
-         locale.value === 'ja' ? 'Google Workspace プロモーションコード - 10%オフ' :
-         locale.value === 'hi' ? 'Google Workspace प्रोमो कोड - 10% बचाएं' :
-         locale.value === 'ru' ? 'Промокоды Google Workspace - Скидка 10%' :
-         'Google Workspace Promo Codes - Save 10%',
+  title: locale.value === 'en' ? 'Google Workspace Promo Code 2025 - Save 10%' :
+         locale.value === 'fr' ? 'Codes promo Google Workspace 2025 - Économisez 10%' :
+         locale.value === 'es' ? 'Códigos promocionales de Google Workspace 2025 - Ahorre 10%' :
+         locale.value === 'pt' ? 'Códigos promocionais do Google Workspace 2025 - Economize 10%' :
+         locale.value === 'de' ? 'Google Workspace Gutscheincodes 2025 - 10% sparen' :
+         locale.value === 'ja' ? 'Google Workspace プロモーションコード 2025 - 10%オフ' :
+         locale.value === 'hi' ? 'Google Workspace प्रोमो कोड 2025 - 10% बचाएं' :
+         locale.value === 'ru' ? 'Промокоды Google Workspace 2025 - Скидка 10%' :
+         'Google Workspace Promo Code 2025 - Save 10%',
   meta: [
     {
       name: 'description',
